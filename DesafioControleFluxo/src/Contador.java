@@ -27,11 +27,10 @@ public class Contador {
 			throw new ParametrosInvalidosException();
 		}
 
-		int x = 0; 
+		int x = 1; 
 
 		for (int i = parametroDois - parametroUm; i <= parametroDois; i++) {
-			x =  x + 1;
-			System.out.println("Imprimindo número " + x + "...");
+			System.out.println("Imprimindo número " + x++ + "...");
 		}
 	}
 }
